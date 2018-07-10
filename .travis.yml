@@ -1,0 +1,10 @@
+---
+language: python
+sudo: true
+dist: xenial
+env:
+  - distro: ubuntu1604
+
+script:
+  - sudo chmod +x ./build.sh
+  - sudo ./build.sh
